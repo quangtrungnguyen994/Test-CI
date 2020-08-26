@@ -1,0 +1,87 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: gray;
+    height: auto;
+    width: auto;
+}
+
+.top-nav {
+    background-color: red;
+    height: 41px;
+    width: 100%;
+    position: fixed;
+}
+
+.button {
+    float: right;
+    padding: 11.5px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.top-nav :hover {
+    background-color: blue;
+}
+
+.text {
+    font-size: 50px;
+    color: white;
+}
+.text1 {
+    font-size: 40px;
+    color: red;
+}
+.hinhanh {
+    width: 400px;
+    height: auto;
+}
+
+.hang1, .hang2 {
+    display: flex;
+    margin: 50px;
+}
+
+.box1, .box2 {
+    margin: auto;
+    cursor: pointer;
+}
+
+.text-project {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-contact {
+    font-size: 25px;
+    margin: 15px;
+    padding: 20px;
+}
+
+.btn-contact > a {
+    padding: 55px;
+    text-decoration: none;
+}
+
+#welcome, #contact {
+    display: flex;
+}
+
+.text-welcome {
+    margin: auto;
+}
+
+.ct {
+    margin: 400px auto;
+}
+
+#project {
+    padding-top: 50px;
+}
